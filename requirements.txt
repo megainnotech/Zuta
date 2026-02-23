@@ -1,0 +1,6 @@
+langgraph>=0.0.26
+langchain-google-genai>=0.0.8
+mkdocs>=1.5.3
+mkdocs-material>=9.5.3
+pydantic>=2.5.3
+python-dotenv>=1.0.0

@@ -1,0 +1,20 @@
+site_name: High TPS API Service Standard
+theme:
+  name: material
+  features:
+    - navigation.tabs
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - P1. Overview: index.md
+  - P2. Architecture: p2-architecture.md
+  - P3. App Design Pattern: p3-design.md
+  - P4. Security & NFR: p4-security.md
+  - P5. Deployment: p5-deployment.md
+  - P6. Risks & Anti-patterns: p6-risks.md
+  - P7. Decision Guide: p7-decision.md
